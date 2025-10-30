@@ -18,10 +18,10 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 to-background/60 flex items-center">
           <div className="container mx-auto px-6">
             <h2 className="text-5xl font-bold text-foreground mb-4 max-w-2xl">
-              Производство<br />нефтяных бочек
+              Бочка полиэтиленовая<br />227л с 2-мя пробками L-Ring
             </h2>
             <p className="text-xl text-muted-foreground max-w-xl">
-              Высокое качество и надёжность в каждом изделии
+              Надёжная тара для промышленных жидкостей
             </p>
           </div>
         </div>
@@ -73,12 +73,12 @@ const Index = () => {
               />
             </div>
             <div>
-              <h3 className="text-3xl font-bold text-foreground mb-6">Технология производства</h3>
+              <h3 className="text-3xl font-bold text-foreground mb-6">Полиэтиленовая бочка 227л</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Наше производство использует передовые методы обработки металла и контроля качества на каждом этапе.
+                Прочная и надёжная тара из пищевого полиэтилена высокой плотности с системой закрытия L-Ring.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                От подготовки сырья до финальной проверки — каждый процесс тщательно отлажен для достижения максимальной надёжности продукции.
+                Идеально подходит для хранения и транспортировки жидких продуктов в пищевой, химической и фармацевтической промышленности.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
@@ -113,27 +113,27 @@ const Index = () => {
               <div className="space-y-6">
                 <div className="border-l-2 border-accent pl-6">
                   <h4 className="text-lg font-semibold text-foreground mb-2">Объём</h4>
-                  <p className="text-muted-foreground">200 литров стандартный объём нефтяной бочки</p>
+                  <p className="text-muted-foreground">227 литров полезного объёма</p>
                 </div>
                 <div className="border-l-2 border-accent pl-6">
                   <h4 className="text-lg font-semibold text-foreground mb-2">Материал</h4>
-                  <p className="text-muted-foreground">Высококачественная углеродистая сталь</p>
+                  <p className="text-muted-foreground">Полиэтилен высокой плотности (HDPE)</p>
                 </div>
                 <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-semibold text-foreground mb-2">Покрытие</h4>
-                  <p className="text-muted-foreground">Антикоррозийное защитное покрытие</p>
+                  <h4 className="text-lg font-semibold text-foreground mb-2">Закрытие</h4>
+                  <p className="text-muted-foreground">Система L-Ring с 2-мя пробками</p>
                 </div>
                 <div className="border-l-2 border-accent pl-6">
-                  <h4 className="text-lg font-semibold text-foreground mb-2">Толщина стенки</h4>
-                  <p className="text-muted-foreground">1.2 мм для максимальной прочности</p>
+                  <h4 className="text-lg font-semibold text-foreground mb-2">Цвет</h4>
+                  <p className="text-muted-foreground">Синий (стандарт), другие цвета под заказ</p>
                 </div>
               </div>
             </div>
             <div className="order-1 md:order-2">
               <img 
-                src="https://cdn.poehali.dev/projects/b0186d83-be27-4841-ba19-b231048cc80e/files/72ef6597-27bb-493f-835a-59ef6c7292a4.jpg"
-                alt="Контроль качества"
-                className="w-full h-[400px] object-cover rounded-sm"
+                src="https://cdn.poehali.dev/projects/b0186d83-be27-4841-ba19-b231048cc80e/files/570c1c23-7002-4f9d-91ef-477349dd12b2.jpg"
+                alt="Бочка полиэтиленовая 227л"
+                className="w-full h-[400px] object-contain rounded-sm bg-muted"
               />
             </div>
           </div>
