@@ -4,8 +4,21 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card">
-        <div className="container mx-auto px-6 py-6">
-          <h1 className="text-2xl font-bold text-foreground">БарелПром</h1>
+        <div className="container mx-auto px-6 py-6 flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-foreground">альпластик</h1>
+            <p className="text-sm text-muted-foreground mt-1">Лучшая пластиковая тара для вашей продукции</p>
+          </div>
+          <div className="flex items-center gap-6">
+            <a href="tel:+79179333310" className="flex items-center gap-2 text-foreground hover:text-accent transition-colors">
+              <Icon name="Phone" size={18} />
+              <span className="text-sm font-medium">+7 (917) 933-33-10</span>
+            </a>
+            <a href="mailto:alplastic@alplastic.ru" className="flex items-center gap-2 text-foreground hover:text-accent transition-colors">
+              <Icon name="Mail" size={18} />
+              <span className="text-sm font-medium">alplastic@alplastic.ru</span>
+            </a>
+          </div>
         </div>
       </header>
 
@@ -20,9 +33,17 @@ const Index = () => {
             <h2 className="text-5xl font-bold text-foreground mb-4 max-w-2xl">
               Бочка полиэтиленовая<br />227л с 2-мя пробками L-Ring
             </h2>
-            <p className="text-xl text-muted-foreground max-w-xl">
+            <p className="text-xl text-muted-foreground max-w-xl mb-6">
               Надёжная тара для промышленных жидкостей
             </p>
+            <div className="flex gap-4">
+              <a href="tel:+79179333310" className="bg-accent text-accent-foreground px-6 py-3 rounded-sm font-medium hover:bg-accent/90 transition-colors">
+                Позвонить
+              </a>
+              <a href="mailto:alplastic@alplastic.ru" className="bg-card text-foreground border border-border px-6 py-3 rounded-sm font-medium hover:bg-muted transition-colors">
+                Написать
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -179,8 +200,18 @@ const Index = () => {
       <footer className="border-t border-border bg-card py-12">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-4">БарелПром</h2>
-            <p className="text-muted-foreground">Производство нефтяных бочек</p>
+            <h2 className="text-2xl font-bold text-foreground mb-2">альпластик</h2>
+            <p className="text-muted-foreground mb-4">Лучшая пластиковая тара для вашей продукции</p>
+            <div className="flex items-center justify-center gap-6 mt-6">
+              <a href="tel:+79179333310" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <Icon name="Phone" size={18} />
+                <span className="text-sm">+7 (917) 933-33-10</span>
+              </a>
+              <a href="mailto:alplastic@alplastic.ru" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <Icon name="Mail" size={18} />
+                <span className="text-sm">alplastic@alplastic.ru</span>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
